@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<title>document</title>
+</head>
+    <body>
+        <h1>los aviones de cesariin</h1>
+        {% for  m in misaviones %}
+        <li> 
+            {{m.codigo }} 
+            {{m.nombre}} 
+            {{m.npasajeros}}
+        </li>
+        {% endfor %}
+    </body>
+</html>
